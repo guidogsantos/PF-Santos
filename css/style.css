@@ -101,14 +101,14 @@ main{
 
 .contenedor__index{
     display: grid;
-    grid-template-columns: 600px 600px;
-    grid-template-rows: 250px 500px;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%);
     grid-template-areas: 
-        "titulo titulo"
-        "tapadisco tapadisco"
-        "spotify spotify"
+        "titulo titulo titulo titulo"
+        "tapadisco tapadisco spotify spotify"
+        "tapadisco tapadisco spotify spotify"
     ;
-    place-content: center;
+    margin-right: 30px;
     font-size: 1.3vw;   
 }
 
@@ -136,7 +136,11 @@ main{
 
 .spotify{
     grid-area: spotify;
-    padding-top: 110px;
+    width: 70vw;
+    max-width: 600px;
+    min-width: 550px;
+    margin-top: 30px;
+
 }
 
 .tapadisco{
