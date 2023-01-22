@@ -13,20 +13,20 @@
     background-color: $ColorSecundario;
     padding-bottom: 10px;
     
-        nav ul{
-                display: flex;
-                gap: 5px;
-                                                
-                    li{
-                        display: inline-flex;
+    nav ul{
+        display: flex;
+        gap: 5px;
+
+            li{
+                display: inline-flex;
                         
-                        a{
-                            text-decoration: none;
-                            color: $ColorSecundario;
-                            border-radius: 20px;    
-                        }
-                    }
-                 }    
+                a{
+                    text-decoration: none;
+                    color: $ColorSecundario;
+                    border-radius: 20px;    
+                }
+            }
+        }    
  
   
     .barra{
@@ -36,23 +36,23 @@
         color: $ColorPrincipal;
         text-decoration: none;
               
-            .btn {
-                    // display: flex;
-                    background-color: $ColorPrincipal;
-                    color: $ColorSecundario;
-                    padding: 6px 6px;
-                    font-size: 2.3vw;
-                    text-decoration: none;
-                    font-weight: bold;
-                    text-align: center;
-                    border: none;
+        .btn {
+            background-color: $ColorPrincipal;
+            color: $ColorSecundario;
+            padding: 6px 6px;
+            font-size: 2.3vw;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            border: none;
                     
-                    &:hover{
-                        color: $ColorPrincipal;
-                        background-color: $ColorSecundario;
-                    }
-                    
+                &:hover{
+                    color: $ColorPrincipal;
+                    background-color: $ColorSecundario;
+                    transition: 0.3s
                 }
+                    
+        }
     }
     
 

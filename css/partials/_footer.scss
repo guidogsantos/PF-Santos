@@ -14,14 +14,14 @@ footer{
     }
 
     .redes
-    i{
-        color: white;
-        font-size: 40px;
-        letter-spacing: 15px;
+        i{
+            color: white;
+            font-size: 40px;
+            letter-spacing: 15px;
 
-        &:hover{
-            color: $ColorPrincipal;
+                &:hover{
+                    color: $ColorPrincipal;
+                }
         }
-    }
        
 }
